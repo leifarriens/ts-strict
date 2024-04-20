@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2021", "DOM"],
+    "target": "ES6",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "noImplicitAny": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
